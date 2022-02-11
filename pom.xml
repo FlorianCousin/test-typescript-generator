@@ -51,6 +51,8 @@
                     <outputKind>module</outputKind>
                     <nullableAnnotations>
                         <nullableAnnotation>annotation.MyNullable</nullableAnnotation>
+                        <!-- Comment the following line to make it work -->
+                        <nullableAnnotation>org.jetbrains.annotations.Nullable</nullableAnnotation>
                     </nullableAnnotations>
                 </configuration>
             </plugin>
