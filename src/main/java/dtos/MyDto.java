@@ -1,8 +1,8 @@
 package dtos;
 
+import annotation.MyNullable;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.Set;
 
@@ -11,6 +11,6 @@ import java.util.Set;
 public class MyDto {
 
   private final boolean myBoolean;
-  private final @Nullable Integer myInt;
-  private final Set<@Nullable String> myStrings;
+  private final @MyNullable Integer myInt;
+  private final Set<@MyNullable String> myStrings;
 }

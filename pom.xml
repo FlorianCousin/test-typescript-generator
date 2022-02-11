@@ -50,7 +50,7 @@
                     </classes>
                     <outputKind>module</outputKind>
                     <nullableAnnotations>
-                        <nullableAnnotation>org.jetbrains.annotations.Nullable</nullableAnnotation>
+                        <nullableAnnotation>annotation.MyNullable</nullableAnnotation>
                     </nullableAnnotations>
                 </configuration>
             </plugin>
