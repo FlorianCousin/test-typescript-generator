@@ -49,6 +49,9 @@
                         <class>dtos.MyDto</class>
                     </classes>
                     <outputKind>module</outputKind>
+                    <nullableAnnotations>
+                        <nullableAnnotation>org.jetbrains.annotations.Nullable</nullableAnnotation>
+                    </nullableAnnotations>
                 </configuration>
             </plugin>
         </plugins>
